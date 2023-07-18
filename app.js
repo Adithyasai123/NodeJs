@@ -44,10 +44,10 @@ app.get("/html", function(req,res){
         //res.type('application/json');
         //res.json({'name': 'Mithun Reddy L'});
         res.send({
-		'name': 'Mithun Technologies',
+		'name': 'adithya',
 		'technology': 'DevOps',
-		'contact' : '9980923226',
-		'email': 'devopstrainingblr@gmail.com'
+		'contact' : '9491785919',
+		'email': 'adithyaacgacg3@gmail.com'
 	            });
         
         });
@@ -75,7 +75,7 @@ app.get('/redirect', function(req, res) {
     
  
     app.listen(app.get('port'), function() {
-        console.log("Node JS app is running at http://localhost:" + app.get('port') +"/mithuntechnologies");
+        console.log("Node JS app is running at http://localhost:" + app.get('port') +"/adithya");
       })
     
 
